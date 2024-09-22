@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home Decor</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking the external CSS file -->
+</head>
+<body>
+    <!-- Navigation Section -->
+    <header>
+        <nav>
+            <img class="logo" src="Logo1.png" alt="Home Decor Logo">
+            <div class="nav-links">
+                <a href="index.html">HOME</a>
+                <div class="dropdown">
+                    <a>DESIGNS</a>
+                    <div class="dropdown-content">
+                        <a href="Living Room.html">Living Room</a>
+                        <a href="Bed Room.html">Bed Room</a>
+                        <a href="Dining Room.html">Dining Room</a>
+                        <a href="Kitchen.html">Kitchen</a>
+                    </div>
+                </div>
+                <a href="trends.html">TRENDS</a>
+                <a href="about.html">ABOUT US</a>
+            </div>
+        </nav>
+    </header>
+
+ <!-- Carousel Section -->
+ <div class="slideshow-container">
+    <div class="mySlides fade">
+        <img src="c1.jpeg" alt="Living Room Decor">
+       
+    </div>
+
+    <div class="mySlides fade">
+        <img src="c2.jpeg" alt="Decor Ideas">
+        
+    </div>
+
+    <div class="mySlides fade">
+        <img src="c3.png" alt="Bedroom Ideas">
+        
+    </div>
+
+    <div class="dots" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+ 
+  </div>
+
+
+
+    <!-- Image Gallery Section -->
+    <div class="gallery">
+        <div class="card">
+            <img src="b1.jpeg" alt="Living Room Design" />
+            <p>Modern Living Room Ideas</p>
+        </div>
+        <div class="card">
+            <img src="p1.png" alt="Bedroom Design" />
+            <p>Cozy Bedroom Designs</p>
+        </div>
+        <div class="card">
+            <img src="dr.jpg" alt="Dining Room Design" />
+            <p>Elegant Dining Rooms</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Linking the external JavaScript file -->
+</body>
+</html>
